@@ -10,10 +10,10 @@
    twice), and when none takes it, or no window is open, the app is opened with the answer in the address
    (?ring=<id>&action=<action>&at=<ms>, core/alarms.js applies it on start), so a snooze is not lost and the ring is not
    called missed. */
-const VERSION = 'planner-shell-d7dce61f10f0';                     // planner-shell-<hash of every shell file>
+const VERSION = 'planner-shell-2c0df1c9a12d';                     // planner-shell-<hash of every shell file>
 const FONTS = 'planner-cjk-fonts-1';               // the big pixel CJK fonts: filled when first used, kept across versions
-const FILES = ["./","assets/index-BoUU3Frb.css","assets/index-CURBXI8R.js","assets/silkscreen-latin-CtPo2yA5.woff2","assets/silkscreen-latin-ext-2T9bWrxp.woff2","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest","robots.txt"];                           // the shell (everything but the CJK fonts)
-const RELEASE = "v0.1 · First Timetable";                       // this version's name, "v0.2 · Name" (releases.js releaseLabel)
+const FILES = ["./","assets/index-CGLC6L9U.js","assets/index-_IaB7Cqd.css","assets/silkscreen-latin-CtPo2yA5.woff2","assets/silkscreen-latin-ext-2T9bWrxp.woff2","icons/apple-touch-icon.png","icons/favicon-32.png","icons/favicon.svg","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest","robots.txt"];                           // the shell (everything but the CJK fonts)
+const RELEASE = "v0.1.1 · Clear Print";                       // this version's name, "v0.2 · Name" (releases.js releaseLabel)
 
 const isFont = url => url.pathname.includes('/fonts/fusion-pixel/');
 const ACK_WAIT = 2500, TRIES = 2;                  // core/alarms.js drops a ring-action older than 1.5 s

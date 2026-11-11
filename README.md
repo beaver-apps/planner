@@ -11,7 +11,7 @@ fuss. I am prety proud of this one <3
 Beaver Planner is the fourth Beaver App, beside Beaver Reader, Beaver Focus and Beaver Cook. A school timetable for
 grown-up life, a pixel-art React 18 PWA.
 
-**New and early.** This is the first version (v0.1 · First Timetable), so expect rough edges; it runs at
+**New and early.** This is an early version (v0.1.1 · Clear Print), so expect rough edges; it runs at
 https://beaver-apps.github.io/planner/ and installs as an app from there.
 
 ## What it does
